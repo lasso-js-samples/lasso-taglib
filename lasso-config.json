@@ -1,0 +1,26 @@
+{
+
+    "plugins": [
+        "lasso-less"
+    ],
+    "outputDir": "static",
+    "fingerprintsEnabled": true,
+    "urlPrefix": "./static",
+    "minify": false,
+    "resolveCssUrls": true,
+    "bundlingEnabled": true,
+    "bundles": [
+        {
+            "name": "jquery",
+            "dependencies": [
+                "require: jquery"
+            ]
+        },
+        {
+            "name": "math",
+            "dependencies": [
+                "require: ./add"
+            ]
+        }
+    ]
+}
