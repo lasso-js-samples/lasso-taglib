@@ -3,9 +3,9 @@
     "plugins": [
         "lasso-less"
     ],
-    "outputDir": "static",
+    "outputDir": "build/static/",
     "fingerprintsEnabled": true,
-    "urlPrefix": "./static",
+    "urlPrefix": "/static",
     "minify": false,
     "resolveCssUrls": true,
     "bundlingEnabled": true,
@@ -19,7 +19,7 @@
         {
             "name": "math",
             "dependencies": [
-                "require: ./add"
+                "require: ./src/add"
             ]
         }
     ]

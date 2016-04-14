@@ -2,9 +2,10 @@
   "name": "lasso-taglib",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js",
+    "server": "http-server build/",
+    "start": "npm run build && npm run server"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +14,9 @@
     "url": "https://github.com/lasso-js-samples/lasso-taglib.git"
   },
   "dependencies": {
-    "jquery": "^2.1.4",
-    "lasso": "^1.9.2",
-    "lasso-less": "^2.1.1",
-    "marko": "^2.7.1"
+    "jquery": "^2.2.3",
+    "lasso": "^2.2.1",
+    "lasso-less": "^2.1.2",
+    "marko": "^3.1.2"
   }
 }

@@ -1,0 +1,11 @@
+[removed] .cache
+[modified] package.json
+  - [info] Updated "marko" version: ^2.7.1 → ^3.0.3 (in "dependencies")
+  - [info] Updated "lasso" version: ^1.9.2 → ^2.0.0 (in "dependencies")
+[modified] src/index.marko
+
+REMAINING TASKS:
+[task] Delete backup directory: .marko-migrate-backup
+[task] Run "npm install" to install the latest versions of packages.
+[task] The following installed package should now be migrated: node_modules/lasso/marko-taglib.json
+[task] Delete log file: marko-migrate.log
